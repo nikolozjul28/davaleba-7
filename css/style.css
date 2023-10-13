@@ -1,0 +1,48 @@
+.container {
+    max-width:1920px;
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    max-width: inherit;
+    width: inherit;
+    transform:translateX();
+    position: fixed;
+}
+
+.main_nav {
+    background-color: #262626;
+}
+
+.main_nav_ul {
+    display: flex;
+    column-gap: 68px;
+    padding:45px 0;
+}
+
+.main_nav_a_active, .main_nav_a_no_active {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size:24px;
+}
+
+.main_nav_a_active {
+    color:#DCB47A;
+}
+
+.fa-cart-shopping {
+    margin-left:calc(706 / 1920 * 100%);
+    font-size:32px;
+    color:white;
+}
+
+.section1 {
+    position: relative;
+    max-width:1920px;
+    width: 100%;
+}
+
+.section1_img {
+    width: 100%;
+}
